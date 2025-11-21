@@ -1,1 +1,9 @@
 tomtoolkit
+django-storages[google] # only needed for GKE
+google-cloud-storage # only needed for GKE
+django-storages[s3] # only needed for EKS
+gunicorn
+gevent
+greenlet
+psycopg2-binary
+whitenoise
